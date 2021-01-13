@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pagination{
+	margin-top: 18px;
+}
+.page-item{
+    font-size: 16px;
+	display: inline-block!important;
+	padding: 4px 8px;
+	border-radius: 5px;
+}
+.page-item a{
+    font-size: 20px;
+	
+}
+.active{
+	background-color: #C54FF7;
+	color: #fff;
+
+}
